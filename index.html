@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">-->
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        body {
+            background: #201e1ee3;
+            height: auto;
+            padding: 100px;
+        }
+        
+        .container {
+            width: 250px;
+            height: 350px;
+            background-color: rgb(62 57 57);
+            box-shadow: 0px 0px 5px 5px #676767;
+            border-radius: 10px;
+            padding: 15px;
+            margin: 30px;
+            float: left;
+        }
+        
+        .card {
+            position: relative;
+            background: linear-gradient(90deg, #5a5a5a 50%, #535151 50%);
+            width: 100%;
+            height: 100%;
+            border-radius: 5px;
+            transition: .5s;
+        }
+        
+        .container:hover .card {
+            transform: translateY(-50px);
+        }
+        
+        .container:hover .text {
+            color: white;
+        }
+        
+        .number {
+            opacity: 0.3;
+            color: white;
+            font-size: 130px;
+            position: absolute;
+            top: 0px;
+            right: 10px;
+        }
+        
+        .text {
+            text-align: center;
+            color: #ffffffab;
+            position: relative;
+            font-size: 17px;
+            font-weight: 300;
+            top: 55px;
+            padding: 17px;
+            line-height: 25px;
+            font-family: sans-serif;
+        }
+        
+        .text h2 {
+            margin: 10px;
+        }
+        
+        .readmore {
+            text-align: center;
+            position: relative;
+            border-radius: 20px;
+            background: #2196f3;
+            width: 80px;
+            padding: 10px;
+            left: 70px;
+            bottom: -55px;
+        }
+        
+        .r2 {
+            background: #e91e63;
+        }
+        
+        .r3 {
+            background: #97dc47;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="number">
+                01
+            </div>
+            <div class="text">
+                <h2>Card One</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidiunt ut labore et dolore magna aliqua.
+                </p>
+            </div>
+
+            <div class="readmore">
+                Read More
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="card">
+            <div class="number">
+                02
+            </div>
+            <div class="text">
+                <h2>Card Two</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidiunt ut labore et dolore magna aliqua.
+                </p>
+            </div>
+
+            <div class="readmore r2">
+                Read More
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="card">
+            <div class="number">
+                03
+            </div>
+            <div class="text">
+                <h2>Card Three</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidiunt ut labore et dolore magna aliqua.
+                </p>
+            </div>
+
+            <div class="readmore r3">
+                Read More
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
